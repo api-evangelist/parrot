@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.filevine.com:443/security/
+url: https://www.filevine.com:443/security/
+certifications:
+- SOC 2
+- ISO 27001
+- ISO 27017
+- ISO 27018
+- PCI DSS
+- HIPAA
+- FedRAMP
+- GDPR
+- FIPS 140
+evidence:
+- source: https://www.filevine.com:443/security/
+  keywords:
+  - soc 2
+  - iso 27001
+  - iso/iec 27001
+  - pci dss
+  - hipaa
+  - fedramp
+  - trust center
+  - gdpr

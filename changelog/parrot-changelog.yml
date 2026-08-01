@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.parrot.us/release-notes
+scheme: dated-feature-release
+current_version: null
+notes: >-
+  Parrot publishes a dated product release-notes feed (not a semantic-versioned
+  API changelog). Parrot is now part of Filevine. Recent window captured below.
+entries:
+- date: '2024-03-19'
+  title: Semantic Search
+  type: addition
+  highlights: Find semantically related text across transcripts and upload searchable documents.
+- date: '2024-03-04'
+  title: Exhibits Management
+  type: addition
+  highlights: Upload and present exhibits during proceedings.
+- date: '2023-09-18'
+  title: Case Archiving
+  type: addition
+  highlights: Close and archive completed cases.
+- date: '2023-04-04'
+  title: Note-taking & Highlights
+  type: addition
+  highlights: Collaboration features for transcript annotation.
+- date: '2023-03-22'
+  title: Cut & Share Video Clips
+  type: addition
+  highlights: Create and share video excerpts from depositions.
+- date: '2023-01-01'
+  title: Auto Summary
+  type: addition
+  highlights: AI-powered transcript summarization.

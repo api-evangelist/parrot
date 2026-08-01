@@ -1,8 +1,18 @@
 aid: parrot
 name: Parrot
-description: 'Parrot is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Parrot is an AI-powered legal technology platform purpose-built for the
+  litigation, court reporting, and insurance community. Its proprietary large
+  language models are trained on legal and insurance terminology to deliver
+  audio/video-synced deposition transcripts, AI-generated deposition summaries
+  (narrative, page:line, or topic-based), remote deposition scheduling and
+  livestreaming, and AI-enabled medical record summaries with chronologies and
+  source linking. Trusted by law firms, insurance carriers such as USAA and
+  Travelers, and Fortune 500 corporations, Parrot operates under SOC 2, HIPAA,
+  and HITECH controls. Backed by Amplify Partners and XYZ Venture Capital
+  ($11M Series A, 2023); Parrot is now part of Filevine. Parrot is a product
+  and services company; it does not publish a public developer API, SDK, or
+  developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/parrot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62ea24af156de8a05bb2514e/630d240ab6d5d566e3988783_OG%20Image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- Legal Tech
+- Court Reporting
+- Deposition
+- Transcription
+- Insurance
+- Medical Records
+- Litigation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,31 @@ maintainers:
 common:
 - type: Website
   url: https://parrot.us
+- type: Blog
+  url: https://www.parrot.us/blog
+- type: Support
+  url: https://www.parrot.us/contact
+- type: StatusPage
+  url: https://status.parrot.us
+- type: ChangeLog
+  name: Release Notes
+  url: https://www.parrot.us/release-notes
+- type: ChangeLog
+  name: Changelog artifact
+  url: changelog/parrot-changelog.yml
+- type: TermsOfService
+  url: https://www.parrot.us/agreements/terms-and-conditions-01-15-2025
+- type: PrivacyPolicy
+  url: https://www.parrot.us/agreements/privacy-01-15-2025
+- type: Compliance
+  name: Security & compliance certifications (SOC 2, ISO 27001, HIPAA)
+  url: security/parrot-trust-center.yml
+- type: TrustCenter
+  url: security/parrot-trust-center.yml
+- type: DomainSecurity
+  url: security/parrot-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
